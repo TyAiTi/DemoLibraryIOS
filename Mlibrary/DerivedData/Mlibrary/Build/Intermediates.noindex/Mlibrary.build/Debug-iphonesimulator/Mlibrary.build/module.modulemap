@@ -1,0 +1,6 @@
+framework module Mlibrary {
+  umbrella header "Mlibrary.h"
+
+  export *
+  module * { export * }
+}
