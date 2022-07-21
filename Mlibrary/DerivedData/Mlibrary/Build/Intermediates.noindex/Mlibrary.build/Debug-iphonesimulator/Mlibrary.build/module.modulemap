@@ -4,3 +4,8 @@ framework module Mlibrary {
   export *
   module * { export * }
 }
+
+module Mlibrary.Swift {
+    header "Mlibrary-Swift.h"
+    requires objc
+}

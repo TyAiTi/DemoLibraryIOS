@@ -6,40 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2DDBBA44-4D20-4E1A-BDCA-D1FAB9C3A511</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2DDBBA44-4D20-4E1A-BDCA-D1FAB9C3A511.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Mlibrary project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Mlibrary</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Mlibrary</string>
-			<key>timeStartedRecording</key>
-			<real>680065729.39316297</real>
-			<key>timeStoppedRecording</key>
-			<real>680065729.41371596</real>
-			<key>title</key>
-			<string>Build Mlibrary</string>
-			<key>uniqueIdentifier</key>
-			<string>2DDBBA44-4D20-4E1A-BDCA-D1FAB9C3A511</string>
-		</dict>
 		<key>9AAACD23-6642-4CDD-8C18-11751D8F3833</key>
 		<dict>
 			<key>className</key>
@@ -74,7 +40,7 @@
 			<key>uniqueIdentifier</key>
 			<string>9AAACD23-6642-4CDD-8C18-11751D8F3833</string>
 		</dict>
-		<key>F92DEF10-BA89-48A1-BE64-B815B3582A96</key>
+		<key>D958199C-FC04-4D90-834E-0417B069C651</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F92DEF10-BA89-48A1-BE64-B815B3582A96.xcactivitylog</string>
+			<string>D958199C-FC04-4D90-834E-0417B069C651.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Mlibrary project</string>
@@ -100,47 +66,13 @@
 			<key>signature</key>
 			<string>Build Mlibrary</string>
 			<key>timeStartedRecording</key>
-			<real>680065759.10429299</real>
+			<real>680082051.18210697</real>
 			<key>timeStoppedRecording</key>
-			<real>680065759.14686096</real>
+			<real>680082056.659271</real>
 			<key>title</key>
 			<string>Build Mlibrary</string>
 			<key>uniqueIdentifier</key>
-			<string>F92DEF10-BA89-48A1-BE64-B815B3582A96</string>
-		</dict>
-		<key>FB32E9D4-3A57-49D4-BD77-3877FEE1EEC3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FB32E9D4-3A57-49D4-BD77-3877FEE1EEC3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Mlibrary project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Mlibrary</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Mlibrary</string>
-			<key>timeStartedRecording</key>
-			<real>680065712.63260901</real>
-			<key>timeStoppedRecording</key>
-			<real>680065713.88987398</real>
-			<key>title</key>
-			<string>Build Mlibrary</string>
-			<key>uniqueIdentifier</key>
-			<string>FB32E9D4-3A57-49D4-BD77-3877FEE1EEC3</string>
+			<string>D958199C-FC04-4D90-834E-0417B069C651</string>
 		</dict>
 	</dict>
 </dict>

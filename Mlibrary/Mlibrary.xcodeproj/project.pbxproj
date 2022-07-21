@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCB1FE8913263E6B0178EB06 /* libPods-Mlibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B4D45C49446471C1B7EC0F /* libPods-Mlibrary.a */; };
 		E41D36442888FA8500C261F8 /* Mlibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E41D36432888FA8500C261F8 /* Mlibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41D364B2888FD2900C261F8 /* SWSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D364A2888FD2900C261F8 /* SWSExtensions.swift */; };
+		E47C4A152889343A00135C3D /* ReactNativeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A142889343A00135C3D /* ReactNativeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39C7975BD7FD1FF8A5BCA708 /* Pods-Mlibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mlibrary.debug.xcconfig"; path = "Target Support Files/Pods-Mlibrary/Pods-Mlibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		538A69D287A658BD100DC1CA /* Pods-Mlibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mlibrary.release.xcconfig"; path = "Target Support Files/Pods-Mlibrary/Pods-Mlibrary.release.xcconfig"; sourceTree = "<group>"; };
+		63B4D45C49446471C1B7EC0F /* libPods-Mlibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mlibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D36402888FA8500C261F8 /* Mlibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mlibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D36432888FA8500C261F8 /* Mlibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mlibrary.h; sourceTree = "<group>"; };
 		E41D364A2888FD2900C261F8 /* SWSExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSExtensions.swift; sourceTree = "<group>"; };
+		E47C4A142889343A00135C3D /* ReactNativeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,17 +28,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB1FE8913263E6B0178EB06 /* libPods-Mlibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82C4B422749C73B292845544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39C7975BD7FD1FF8A5BCA708 /* Pods-Mlibrary.debug.xcconfig */,
+				538A69D287A658BD100DC1CA /* Pods-Mlibrary.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4D77DF9741FC0E56B44C8B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B4D45C49446471C1B7EC0F /* libPods-Mlibrary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E41D36362888FA8400C261F8 = {
 			isa = PBXGroup;
 			children = (
 				E41D36422888FA8500C261F8 /* Mlibrary */,
 				E41D36412888FA8500C261F8 /* Products */,
+				82C4B422749C73B292845544 /* Pods */,
+				C4D77DF9741FC0E56B44C8B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +76,7 @@
 			children = (
 				E41D36432888FA8500C261F8 /* Mlibrary.h */,
 				E41D364A2888FD2900C261F8 /* SWSExtensions.swift */,
+				E47C4A142889343A00135C3D /* ReactNativeExtension.swift */,
 			);
 			path = Mlibrary;
 			sourceTree = "<group>";
@@ -71,10 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E41D36472888FA8500C261F8 /* Build configuration list for PBXNativeTarget "Mlibrary" */;
 			buildPhases = (
+				B298D276B6D757F30CA41B45 /* [CP] Check Pods Manifest.lock */,
 				E41D363B2888FA8500C261F8 /* Headers */,
 				E41D363C2888FA8500C261F8 /* Sources */,
 				E41D363D2888FA8500C261F8 /* Frameworks */,
 				E41D363E2888FA8500C261F8 /* Resources */,
+				83C8C90DBB43E0D580FA0F91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,11 +158,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83C8C90DBB43E0D580FA0F91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mlibrary/Pods-Mlibrary-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mlibrary/Pods-Mlibrary-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mlibrary/Pods-Mlibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B298D276B6D757F30CA41B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mlibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E41D363C2888FA8500C261F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47C4A152889343A00135C3D /* ReactNativeExtension.swift in Sources */,
 				E41D364B2888FD2900C261F8 /* SWSExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +335,7 @@
 		};
 		E41D36482888FA8500C261F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C7975BD7FD1FF8A5BCA708 /* Pods-Mlibrary.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,6 +366,7 @@
 		};
 		E41D36492888FA8500C261F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538A69D287A658BD100DC1CA /* Pods-Mlibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
